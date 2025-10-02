@@ -28,8 +28,8 @@ project-folder/
 
 2. **Clone this repository**
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/PLP-MERN-Stack-Development/mongodb-data-layer-fundamentals-and-advanced-techniques-cj7code.git
+cd mongodb-data-layer-fundamentals-and-advanced-techniques-cj7code
 ```
 
 3. **Install Node.js dependencies**
@@ -37,15 +37,7 @@ cd <repo-folder>
 npm install mongodb dotenv
 ```
 
-4. **Configure environment variables**
-Create a `.env` file in the project root with:
-
-```env
-MONGO_URI=mongodb://localhost:27017      # Or your Atlas URI
-DB_NAME=plp_bookstore
-```
-
-5. **Insert sample book data**
+4. **Insert sample book data**
 ```bash
 node insert_books.js
 ```
